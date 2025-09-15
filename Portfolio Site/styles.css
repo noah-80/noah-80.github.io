@@ -41,6 +41,10 @@ a {
     margin: 100px 0px;
 }
 
+#waterkeeper {
+    margin-bottom: 100px;
+}
+
 .section {
     display:flex;
     flex-direction: column;
@@ -55,6 +59,23 @@ a {
 
 .projecttext {
     width: 45%;
+}
+
+.project {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.videocontainer {
+    width: 45%;
+}
+
+video {
+    max-width: 100%;
+    height:auto;
+    outline:1px solid black;
+    outline-offset: -1px;
 }
 
 .sectionhead > div {
@@ -97,4 +118,16 @@ img {
 
 #INFOGRAPHICS {
     scroll-margin-top: 150px;
+}
+
+#beyond {
+    color:black;
+    text-decoration: none;
+}
+
+#waterkeeperpic {
+    width:45%;
+    height:auto;
+    outline:1px solid black;
+    outline-offset: -1px;
 }
