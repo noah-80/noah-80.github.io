@@ -1,0 +1,77 @@
+body {
+font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size:24px;
+padding: 10px 0;
+}
+
+.container {
+    width:75%;
+    margin:auto;
+}
+
+a {
+    color:#CCCCCC;
+    text-decoration: none;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight:bold;
+    border:1px solid black;
+    margin: 40px 0px;
+    position:sticky;
+    top: 40px;
+    background-color:white;
+    font-size:1em;
+}
+
+.sectionheads{
+    display:flex;
+}
+
+.bio {
+    margin: 100px 0px;
+}
+
+.section {
+    display:flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    gap: 50px;
+}
+
+.sectionheads > div {
+    margin: 0px 30px;
+    font-size:1em;
+}
+
+.projecttext {
+    width: 45%;
+}
+
+.sectionhead > div {
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+
+.line {
+    height:1px;
+    background-color: black;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.grey {
+    color:#CCCCCC;
+}
+
+.footer {
+    text-align: center;
+    color:#CCCCCC;
+}
