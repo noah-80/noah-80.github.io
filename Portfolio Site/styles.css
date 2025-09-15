@@ -33,6 +33,15 @@ a {
     font-size:1em;
 }
 
+#casecontainer {
+    width:75%;
+    margin-top:40px;
+}
+
+#casevideo {
+    width:50%;
+}
+
 .sectionheads{
     display:flex;
 }
