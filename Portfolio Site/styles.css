@@ -6,6 +6,10 @@ font-family: "Libre Franklin", sans-serif;
 padding: 10px 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width:75%;
     margin:auto;
@@ -71,6 +75,10 @@ a {
     color:#CCCCCC;
 }
 
+.sectionheads > div > a {
+    color: black;
+}
+
 .footer {
     text-align: center;
     color:#CCCCCC;
@@ -81,4 +89,12 @@ img {
     width:70%;
     height:auto;
     align-self: center;
+}
+
+#WEB {
+    scroll-margin-top: 150px;
+}
+
+#INFOGRAPHICS {
+    scroll-margin-top: 150px;
 }
