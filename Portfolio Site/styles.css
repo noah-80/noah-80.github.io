@@ -41,7 +41,7 @@ a {
     display:flex;
     flex-direction: column;
     margin: 50px 0px;
-    gap: 50px;
+    gap: 100px;
 }
 
 .sectionheads > div {
@@ -74,4 +74,11 @@ a {
 .footer {
     text-align: center;
     color:#CCCCCC;
+}
+
+img {
+    border: 1px solid black;
+    width:70%;
+    height:auto;
+    align-self: center;
 }
