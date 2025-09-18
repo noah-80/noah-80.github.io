@@ -136,6 +136,14 @@ img {
     text-decoration: none;
 }
 
+#beyond:hover{
+    color:#00b3d1;
+}
+
+#projectname:hover{
+    color:#00b3d1;
+}
+
 #waterkeepercontainer {
     width:45%;
     outline-offset: -1px;
@@ -145,4 +153,8 @@ img {
     width:calc(100% - 2px);
     height:auto;
     outline-offset: -1px;
+}
+
+.hover:hover {
+    color:#00b3d1;
 }
