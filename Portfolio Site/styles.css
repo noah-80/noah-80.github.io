@@ -35,12 +35,13 @@ a {
 }
 
 #casecontainer {
-    width:75%;
+    max-width: 660px;
     margin-top:40px;
 }
 
-#casevideo {
-    width:50%;
+#casevideo,
+#wkcasestudypic {
+    width:100%;
 }
 
 .sectionheads{
@@ -157,4 +158,16 @@ img {
 
 .hover:hover {
     color:#00b3d1;
+}
+
+#liveproject {
+    font-weight: bold; color:black;
+}
+
+#liveproject:hover{
+    color:#00b3d1;
+}
+
+.casestudytext {
+    font-size: 18px;
 }
