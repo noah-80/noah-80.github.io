@@ -14,7 +14,7 @@
     <div class="container">
     <!-- header -->
     <div class="header">
-        <div onclick="topFunction()">NOAH HRUNG</div>
+        <div style="cursor:pointer" onclick="topFunction()">NOAH HRUNG</div>
         <div class="sectionheads">
             <div><a href="#WEB">WEB</a></div> •
             <div><a href="#INFOGRAPHICS">INFOGRAPHICS</a></div>
@@ -73,11 +73,14 @@
         <div class="project">
             <div class="projecttext">
                 <div class="grey">
-                    WEBSITE
+                    EDITORIAL
                 </div>
-                <div class="name">
-                    Cultural Connections
-                </div><br>
+                    <a href="cultural.html">
+                        <div class="name" id="projectname">
+                            Cultural Connections
+                        </div>
+                    </a>
+                    <br>
                 <div class="description">
                     An interview on cultural identity told through an interactive, carousel-style site
                 </div><br>
@@ -85,7 +88,7 @@
                     DESIGN • DEV
                 </div>
             </div>
-            <a class="videocontainer">
+            <a href=cultural.html class="videocontainer">
                     <video autoplay muted loop playsinline>
                         <source src="../Videos/cultural.webm" type="video/webm">
                         <source src="../Videos/cultural.mp4" type="video/mp4">
@@ -95,11 +98,14 @@
                 <div class="project" id="waterkeeper">
             <div class="projecttext">
                 <div class="grey">
-                    WEBSITE
+                    NONPROFIT
                 </div>
-                <div class="name">
+                <a href="waterkeeper.html">
+                <div class="name" id="projectname">
                     LA Waterkeeper
-                </div><br>
+                </div>
+                </a>
+                <br>
                 <div class="description">
                     Designing an educational web experience visualizing the LA River
                 </div><br>
@@ -107,7 +113,10 @@
                     UI/UX • VISUAL DESIGN
                 </div>
             </div>
+            <a href=waterkeeper.html id="waterkeepercontainer">
                 <img id="waterkeeperpic" src="../Videos/Waterkeeper.webp">
+            </a>
+    
         </div>
     </div>
 
