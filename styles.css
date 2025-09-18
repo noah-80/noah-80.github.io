@@ -192,9 +192,6 @@ img {
   #waterkeepercontainer {
     width: 100%;
   }
-}
-
-@media (max-width: 1600px) {
     #infographiccontainer > img {
         width:100%;
     }
