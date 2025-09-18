@@ -123,7 +123,8 @@ video {
 
 img {
     border: 1px solid black;
-    width:70%;
+    width: 70%;
+    object-fit: contain;
     height:auto;
     align-self: center;
 }
