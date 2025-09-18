@@ -48,6 +48,10 @@ a {
     display:flex;
 }
 
+.bulletpoints {
+    text-indent: 20px;
+}
+
 .bio {
     margin: 100px 0px;
 }
