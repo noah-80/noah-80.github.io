@@ -176,3 +176,9 @@ img {
 .casestudytext {
     font-size: 18px;
 }
+
+@media (max-width: 1000px) {
+  .header {
+    display: none;
+  }
+}
