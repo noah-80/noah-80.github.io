@@ -193,6 +193,12 @@ div#infographiccontainer {
     width:100%;
 }
 
+#zinepic {
+    width:100%;
+}
+
+/* media queries */
+
 @media (max-width: 1000px) {
   .header {
     display: none;
@@ -212,6 +218,7 @@ div#infographiccontainer {
   div#infographiccontainer {
     display: block;
 }
+
     .column {
         max-width: 100%;
     }
