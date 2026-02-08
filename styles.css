@@ -235,6 +235,10 @@ div#infographiccontainer {
     max-width: 50%;
 }
 
+#cid {
+    max-width: 50%; align-self: center;
+}
+
 /* media queries----------------------- */
 
 @media (max-width: 1000px) {
@@ -260,4 +264,20 @@ div#infographiccontainer {
     .column {
         max-width: 100%;
     }
+
+.otherplay {
+    max-width: 100%;
+}
+
+.dualview {
+    flex-direction: column;
+}
+
+.dualview > video {
+    max-width: 100%;
+}
+
+#cid {
+    max-width: 100%;
+}
 }
