@@ -208,4 +208,11 @@ div#infographiccontainer {
   #waterkeepercontainer {
     width: 100%;
   }
+
+  div#infographiccontainer {
+    display: block;
+}
+    .column {
+        max-width: 100%;
+    }
 }
