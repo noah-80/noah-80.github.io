@@ -169,6 +169,16 @@ img {
     color:#00b3d1;
 }
 
+.hyperlinks {
+    color:black;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.hyperlinks:hover{
+    color:#00b3d1;
+}
+
 #liveproject {
     font-weight: bold; color:black;
 }
@@ -201,7 +211,31 @@ div#infographiccontainer {
     width:100%;
 }
 
-/* media queries */
+.playcontainer {
+    display:flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.otherplay {
+    gap: 60px;
+    display:flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+
+.dualview {
+    display:flex;
+    gap: 20px;
+}
+
+.dualview > video {
+    min-width: 0;
+    max-width: 50%;
+}
+
+/* media queries----------------------- */
 
 @media (max-width: 1000px) {
   .header {
