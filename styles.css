@@ -12,6 +12,8 @@ hr.solid {
     font-smooth: never; 
     font-weight: 300;
     color: #363636;
+        margin:0;
+
 }
 
 .link {
@@ -41,7 +43,7 @@ b {
     font-weight: 700;
 }
 
-body {
+.content {
     min-width: 300px;
     max-width:70%;
     margin: 50px auto;
@@ -103,4 +105,10 @@ body {
 
 .outline-vid {
     border: #C5C5C5 solid 1px;
+}
+
+.footer {
+    background-color: #F2E9F8;
+    height: 100px;
+    margin: 0;
 }
