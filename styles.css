@@ -21,19 +21,17 @@ hr.solid {
     background:
      linear-gradient(
        to bottom,
-       #E2E2E2 0%,
-       #E2E2E2 100%
+       #E3D4EC 0%,
+       #E3D4EC 100%
      );
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 2px 2px;
-  color: #000;
   text-decoration: none;
   transition: background-size .2s;
-  display:inline-block;
+  display:inline;
 }
 
-/* On hover, transition the border space into a background fill */
 .link:hover .project-title {
   background-size: 4px 10px;
 }
@@ -61,6 +59,7 @@ body {
     display:flex;
     gap: 1rem;
     margin-top: 50px;
+    margin-bottom:12px;
 }
 
 .case-study-graphics * {
@@ -75,7 +74,7 @@ body {
 }
 
 .project-desc {
-    margin-bottom: 8px;
+    margin: 8px 0;
 }
 
 .cards {
@@ -93,12 +92,12 @@ body {
 }
 
 .role {
-    background-color:#E2E2E2;
-    border: #E2E2E2 solid 1px;
+    background-color:#F2E9F8;
+    border: #F2E9F8 solid 1px;
 }
 
 .tool {
-    border: #C5C5C5 solid 1px;
+    border: #E3D4EC solid 1px;
 }
 
 .outline-vid {
