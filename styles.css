@@ -1,5 +1,7 @@
 hr.solid {
-  border-top: 1px solid #C5C5C5;
+  border: none;
+  height: 1px;
+  background-color: #C5C5C5;
 }
 
 * {
@@ -8,6 +10,44 @@ hr.solid {
     -moz-osx-font-smoothing: grayscale;
     font-smooth: never; 
     font-weight: 300;
+    color: #363636;
+}
+
+a {
+    /* text-decoration-color: #E2E2E2;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px; */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.animated-link {
+    color: #363636;
+    text-decoration: none;
+    position: relative;
+}
+
+.animated-link::before, .animated-link::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    border-top-width: 1px;
+}
+.animated-link::before {
+    border-top-color: #C5C5C5;
+    border-top-style: solid;
+    width: 100%;
+}
+.animated-link::after {
+    border-top-color: #363636;
+    border-top-style: solid;
+    width: 0;
+    transition: width .2s ease;
+}
+
+.animated-link:hover::after {
+    width: 100%;
 }
 
 b {
@@ -15,7 +55,9 @@ b {
 }
 
 body {
-    padding: 0 250px;
+    min-width: 300px;
+    max-width:70%;
+    margin: 0 auto;
 }
 
 .section {
@@ -29,7 +71,7 @@ body {
 
 .case-study-graphics{
     display:flex;
-    gap: 15px;
+    gap: 1rem;
     margin-top: 50px;
 }
 
@@ -50,6 +92,7 @@ body {
 
 .cards {
     display:flex;
+    flex-wrap: wrap;
     gap: 5px;
     margin: 5px 0;
 }
@@ -67,5 +110,9 @@ body {
 }
 
 .tool {
+    border: #C5C5C5 solid 1px;
+}
+
+.outline-vid {
     border: #C5C5C5 solid 1px;
 }
