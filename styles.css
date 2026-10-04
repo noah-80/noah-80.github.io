@@ -71,15 +71,17 @@ b {
 
 .info-graphics {
     display:flex;
+    gap: 23px;
+    justify-content: space-between;
+    width: 100%;
     margin-top: 50px;
     margin-bottom:12px;
-    gap: 7px;
 }
 
-.info-graphics * {
-    display: inline;
-    flex: 1;
+.info-graphics img {
     min-width: 0;
+    max-height: 400px;
+    width: auto;
 }
 
 .case-study-graphics * {
