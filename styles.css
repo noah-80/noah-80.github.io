@@ -4,4 +4,42 @@ hr.solid {
 
 * {
     font-family: "National Park";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never; 
+    font-weight: 300;
+}
+
+b {
+    font-weight: 700;
+}
+
+body {
+    padding: 0 250px;
+}
+
+.section {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.case-study-graphics{
+    display:flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.case-study-graphics * {
+    display: inline;
+    max-width: 33%;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size:1.4rem;
+    margin-top:15px;
 }
