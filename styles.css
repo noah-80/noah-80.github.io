@@ -24,7 +24,7 @@ body {
 }
 
 .section {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .case-study-graphics{
@@ -42,4 +42,30 @@ body {
     font-weight: 700;
     font-size:1.4rem;
     margin-top:15px;
+}
+
+.project-desc {
+    margin-bottom: 8px;
+}
+
+.cards {
+    display:flex;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.card {
+    font-size: 0.75rem;
+    font-weight: 700;
+    display:inline;
+    padding: 1px 3px;
+}
+
+.role {
+    background-color:#E2E2E2;
+    border: #E2E2E2 solid 1px;
+}
+
+.tool {
+    border: #C5C5C5 solid 1px;
 }
