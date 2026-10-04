@@ -69,6 +69,19 @@ b {
     margin-bottom:12px;
 }
 
+.info-graphics {
+    display:flex;
+    margin-top: 50px;
+    margin-bottom:12px;
+    gap: 7px;
+}
+
+.info-graphics * {
+    display: inline;
+    flex: 1;
+    min-width: 0;
+}
+
 .case-study-graphics * {
     display: inline;
     max-width: 33%;
