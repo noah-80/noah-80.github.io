@@ -2,6 +2,7 @@ hr.solid {
   border: none;
   height: 1px;
   background-color: #C5C5C5;
+  margin-top: 50px;
 }
 
 * {
@@ -17,7 +18,7 @@ hr.solid {
     text-decoration: none;
 }
 
-.project-title {
+.link-text {
     background:
      linear-gradient(
        to bottom,
@@ -32,7 +33,7 @@ hr.solid {
   display:inline;
 }
 
-.link:hover .project-title {
+.link:hover .link-text {
   background-size: 4px 10px;
 }
 
@@ -43,7 +44,7 @@ b {
 body {
     min-width: 300px;
     max-width:70%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .section {
@@ -57,7 +58,7 @@ body {
 
 .case-study-graphics{
     display:flex;
-    gap: 1rem;
+    gap: 15px;
     margin-top: 50px;
     margin-bottom:12px;
 }
